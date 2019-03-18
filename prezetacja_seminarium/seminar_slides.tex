@@ -173,9 +173,9 @@
     \item 5. Linear regression.
     \item 6. Logistic regressiion.
     \item 7. Polynominal regression.
-    \item 8. Q&A
+    \item 8. QA
     \item 9. Quiz.
-\end{itemize}
+	\end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
@@ -252,19 +252,59 @@
 	}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	    
-	\frame{
+	\frame[allowframebreaks]{
 	    \frametitle{5.Ordinary least squares}
+	    \center Method for estimating the unknown parameters in a linear regression model
 	    	\begin{equation}
 			\hat{\beta} = argmin_{\beta} S(\beta)
 		\end{equation}
 		\begin{equation}
 			S(\beta) = \sum_{i=1}^{n} \mid y_i-\sum_{j=1}^{p}X_{ij}\beta_{j} \mid ^{2}
 		\end{equation}
+		\begin{figure}[h]
+		\centering 
+		\includegraphics[scale=0.3]{images/matrix1.png}
+		\end{figure}
+		\center Which leads to:
+		\begin{figure}[h]
+		\centering 
+		\includegraphics[scale=0.5]{images/matrix2.png}
+		\end{figure}
 	   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	   
-	\frame{
+	\frame[allowframebreaks]{
 	    \frametitle{Gradient descent}
+	    Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function.
+	    \\Denote E as squared mean error in example for linear regression:
+	    \begin{equation}
+	    E=1/n * \sum_{i=0}^{n}(y_{i}-\beta_{1}*x_{i}+\beta_{0})
+	    \end{equation}
+	    Lets assume that:
+	    \begin{equation}
+	    a=\beta_{1}
+	    \end{equation}
+	    \begin{equation}
+	    b=\beta_{0}
+	    \end{equation}
+	    \begin{equation}
+	    D_{a}=\frac{\mathrm d}{\mathrm d a} \left( E \right)
+	    \end{equation}
+	    \begin{equation}
+	    D_{b}=\frac{\mathrm d}{\mathrm d b} \left( E \right)
+	    \end{equation}
+	    Now find that a and b where function E will reach minimum or be small enough. Take some $L$ as learning rate and iterative find values of a and b from equations:
+	    \begin{equation}
+	    a=a-L*D_{a}
+	    \end{equation}
+	    \begin{equation}
+	    b=b-L*D_{b}
+	    \end{equation}
+	    		\begin{figure}[h]
+		\centering 
+		\includegraphics[scale=0.45]{images/smallBigLR.png}
+		\end{figure}
+		Training rate $L$ has to be small enough to avoid skipping minimum.
 	   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	   	 
