@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.17)  17 MAR 2019 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.17)  18 MAR 2019 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,18 +1477,6 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./files/tlom.pdf>]
-! Misplaced alignment tab character &.
-<inserted text> ...nominal regression. \item 8. Q&
-                                                  A \item 9. Quiz. \end {ite...
-l.179 \end{frame}
-                 
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 <./files/tlo.pdf, id=60, 1606.0pt x 1204.5pt>
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
@@ -1504,7 +1492,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
  <./files/tlo.pdf>]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 184.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 187.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1516,7 +1504,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 189.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 195.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1528,7 +1516,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 203.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 209.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1540,7 +1528,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 215.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 221.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1551,36 +1539,36 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 234.
-LaTeX Font Info:    Try loading font information for U+msa on input line 234.
+(Font)              <6> on input line 240.
+LaTeX Font Info:    Try loading font information for U+msa on input line 240.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 234.
+LaTeX Font Info:    Try loading font information for U+msb on input line 240.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 234.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 240.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 234.
+line 240.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 234.
+(Font)              <7> on input line 240.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 234.
+(Font)              <5> on input line 240.
 File: ./files/tlo.pdf Graphic file (type pdf)
 
 <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 234.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 240.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1592,7 +1580,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 252.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 258.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1601,10 +1589,22 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 [8
 
-]
+] <images/matrix1.png, id=112, 451.6875pt x 214.8025pt>
+File: images/matrix1.png Graphic file (type png)
+
+<use images/matrix1.png>
+Package pdftex.def Info: images/matrix1.png used on input line 272.
+(pdftex.def)             Requested size: 135.5073pt x 64.44124pt.
+
+<images/matrix2.png, id=113, 219.82124pt x 146.5475pt>
+File: images/matrix2.png Graphic file (type png)
+
+<use images/matrix2.png>
+Package pdftex.def Info: images/matrix2.png used on input line 277.
+(pdftex.def)             Requested size: 109.91034pt x 73.27356pt.
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 263.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 279.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1613,10 +1613,10 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 [9
 
-]
+ <./images/matrix1.png>]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 268.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 279.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1625,10 +1625,22 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 [10
 
-]
+
+ <./images/matrix2.png>]
+<images/smallBigLR.png, id=127, 687.56876pt x 344.28625pt>
+File: images/smallBigLR.png Graphic file (type png)
+
+<use images/smallBigLR.png>
+Package pdftex.def Info: images/smallBigLR.png used on input line 311.
+(pdftex.def)             Requested size: 309.40308pt x 154.92737pt.
+
+Overfull \hbox (2.1132pt too wide) in paragraph at lines 311--312
+ [] 
+ []
+
 File: ./files/tlo.pdf Graphic file (type pdf)
- <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 273.
+<use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 314.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1640,7 +1652,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 280.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 314.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1649,15 +1661,11 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 [12
 
-] <images/overfitting.png, id=135, 707.64375pt x 214.8025pt>
-File: images/overfitting.png Graphic file (type png)
 
-<use images/overfitting.png>
-Package pdftex.def Info: images/overfitting.png used on input line 294.
-(pdftex.def)             Requested size: 212.29475pt x 64.44124pt.
+]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 294.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 314.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1666,10 +1674,11 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 
 [13
 
- <./images/overfitting.png>]
+
+ <./images/smallBigLR.png>]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 304.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 319.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1681,7 +1690,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 309.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 326.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1693,7 +1702,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 319.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 343.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1705,7 +1714,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 328.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 354.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1713,6 +1722,96 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
  []
 
 [17
+
+] <images/sample_data.png, id=165, 481.8pt x 330.23375pt>
+File: images/sample_data.png Graphic file (type png)
+
+<use images/sample_data.png>
+Package pdftex.def Info: images/sample_data.png used on input line 361.
+(pdftex.def)             Requested size: 144.5411pt x 99.07088pt.
+
+<images/linear_regression.png, id=166, 502.87875pt x 333.245pt>
+File: images/linear_regression.png Graphic file (type png)
+
+<use images/linear_regression.png>
+Package pdftex.def Info: images/linear_regression.png used on input line 361.
+(pdftex.def)             Requested size: 150.86478pt x 99.97426pt.
+File: ./files/tlo.pdf Graphic file (type pdf)
+ <use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 361.
+(pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
+
+Overfull \hbox (7.33337pt too wide) has occurred while \output is active
+ []  
+ []
+
+[18
+
+ <./images/sample_data.png> <./images/linear_regression.png>]
+<images/2_degree.png, id=172, 488.82625pt x 327.2225pt>
+File: images/2_degree.png Graphic file (type png)
+
+<use images/2_degree.png>
+Package pdftex.def Info: images/2_degree.png used on input line 366.
+(pdftex.def)             Requested size: 146.649pt x 98.1675pt.
+ <images/3_degree.png, id=173, 489.83pt x 335.2525pt>
+File: images/3_degree.png Graphic file (type png)
+
+<use images/3_degree.png>
+Package pdftex.def Info: images/3_degree.png used on input line 366.
+(pdftex.def)             Requested size: 146.95012pt x 100.57652pt.
+File: ./files/tlo.pdf Graphic file (type pdf)
+ <use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 366.
+(pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
+
+Overfull \hbox (7.33337pt too wide) has occurred while \output is active
+ []  
+ []
+
+[19
+
+ <./images/2_degree.png> <./images/3_degree.png>]
+<images/20_degree.png, id=180, 492.84125pt x 325.215pt>
+File: images/20_degree.png Graphic file (type png)
+
+<use images/20_degree.png>
+Package pdftex.def Info: images/20_degree.png used on input line 370.
+(pdftex.def)             Requested size: 147.8535pt x 97.56525pt.
+File: ./files/tlo.pdf Graphic file (type pdf)
+ <use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 370.
+(pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
+
+Overfull \hbox (7.33337pt too wide) has occurred while \output is active
+ []  
+ []
+
+[20
+
+ <./images/20_degree.png>]
+File: ./files/tlo.pdf Graphic file (type pdf)
+ <use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 380.
+(pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
+
+Overfull \hbox (7.33337pt too wide) has occurred while \output is active
+ []  
+ []
+
+[21
+
+]
+File: ./files/tlo.pdf Graphic file (type pdf)
+ <use ./files/tlo.pdf>
+Package pdftex.def Info: ./files/tlo.pdf used on input line 389.
+(pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
+
+Overfull \hbox (7.33337pt too wide) has occurred while \output is active
+ []  
+ []
+
+[22
 
 ]
 No file seminar_slides.bbl.
@@ -1725,21 +1824,21 @@ No file seminar_slides.bbl.
 \tf@snm=\write9
 \openout9 = `seminar_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
 (./seminar_slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `seminar_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
  ) 
 Here is how much of TeX's memory you used:
- 34034 strings out of 493029
- 827202 string characters out of 6136234
+ 34102 strings out of 493029
+ 828318 string characters out of 6136234
  1076145 words of memory out of 5000000
- 36725 multiletter control sequences out of 15000+600000
- 22150 words of font info for 70 fonts, out of 8000000 for 9000
+ 36773 multiletter control sequences out of 15000+600000
+ 23640 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,79p,747b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texliv
@@ -1750,14 +1849,15 @@ type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/pl/plss8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/pl/plssbi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/pl/plssbx10.pfb>
-Output written on seminar_slides.pdf (17 pages, 209964 bytes).
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/pl/plss8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/pl/plssbi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/pl/plssbx10.pfb>
+Output written on seminar_slides.pdf (22 pages, 353613 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
