@@ -180,12 +180,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 \begin{frame}
-	\frametitle{2. What is regression?}	
+	\frametitle{2. What is regression?}
+	\begin{itemize}
+	\item looks for the relationship between two or more variables.
+\end{itemize}		
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	\frametitle{3. What regression is used for?}	
+	\begin{itemize}
+	\item used in: forecasting, MS Excel :D, machine learning...
+	\end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -324,12 +330,15 @@
 	 	\frametitle{7.Polynominal Regression}
 		\begin{itemize}
 		\item Occurs when regression equation has independent variable in power higher than 1.
+		\item General equation
+			\begin{equation}
+				y = \beta_{0} + \beta_{1}*x_{i} + \beta_{2}*x_{i}^2 + \beta_{3}*x_{i}^3 + ... + \beta_{m}*x_{i}^m + E, i=1,2,3...
+			\end{equation}
 		\item Example (variable in 2 power)
 			\begin{equation}
 				y = a + b*x^2			
 			\end{equation}
-		\item the best fit is rather curve not a straight line (attention: overfitting) 	
-		\includegraphics[scale=0.3]{images/overfitting.png}	 	
+		\item the best fit is rather curve not a straight line
 	 	\end{itemize}
 	   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
@@ -340,13 +349,25 @@
 	    \item polynominal with higher degree can give us lower error rate
 	    \item if degree will be too high then overfitting will occur
 	    \item curve sholud fit the nature of the problem (trend) not every single sample
+	    \item nonlinear "relationship" of variables, but it is considered  as linear model due to the coefficients/weights associated with the features are still linear.
 	    \end{itemize}
 	   }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 	 \frame{
-	    \frametitle{example frame}
+	    \frametitle{7.Polynominal Regression}	    
+	    \includegraphics[scale=0.3]{images/sample_data.png}
+	    \includegraphics[scale=0.3]{images/linear_regression.png}
 	   }
+	 \frame{
+		\frametitle{7.Polynominal Regression}
+		\includegraphics[scale=0.3]{images/2_degree.png}
+	    \includegraphics[scale=0.3]{images/3_degree.png}
+	 }
+	 \frame{
+		\frametitle{7.Polynominal Regression}	 
+		\includegraphics[scale=0.3]{images/20_degree.png}	 
+	 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
