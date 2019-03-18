@@ -170,11 +170,15 @@
     \item 2. What is regression?
     \item 3. What regression is used for?
     \item 4. Types of regression.
-    \item 5. Linear regression.
-    \item 6. Logistic regressiion.
-    \item 7. Polynominal regression.
-    \item 8. QA
-    \item 9. Quiz.
+    \item 5. Simple Linear regression.
+    \item 6. Multiple dimension extension.
+    \item 7. Ordinary least squares.
+    \item 8. Gradient descent in linear regression.
+    \item 9. Regularization - Ridge and Lasso
+    \item 10. Logistic regression.
+    \item 11. Polynominal regression.
+    \item 12. QA
+    \item 13. Quiz.
 	\end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
@@ -241,7 +245,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	
 	\frame{
 	\begin{itemize}
-	\frametitle{5.Multiple dimension extension.}
+	\frametitle{6.Multiple dimension extension.}
 	\item When there is a single input variable x, the method is referred to as simple linear regression. When there are multiple input variables, literature from statistics often refers to the method as multiple linear regression.
 	\item Model for n dimension
 	\begin{equation}
@@ -259,7 +263,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	    
 	\frame[allowframebreaks]{
-	    \frametitle{5.Ordinary least squares}
+	    \frametitle{7.Ordinary least squares}
 	    \center Method for estimating the unknown parameters in a linear regression model
 	    	\begin{equation}
 			\hat{\beta} = argmin_{\beta} S(\beta)
@@ -280,7 +284,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	   
 	\frame[allowframebreaks]{
-	    \frametitle{Gradient descent}
+	    \frametitle{8.Gradient descent in linear regression}
 	    Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function.
 	    \\Denote E as squared mean error in example for linear regression:
 	    \begin{equation}
@@ -315,19 +319,166 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	   	 
 	 \frame{
-	    \frametitle{Regularization}
+	    \frametitle{9.Regularization}
+	    Regularization methods provide a means to control our regression coefficients, which can reduce the variance and decrease our of sample error.
+	    \\Two popular examples of regularization procedures for linear regression are:
+	\begin{itemize}
+    \item Lasso Regression - called L1 regularization.
+    \item Ridge Regression - called L2 regularization.
+\end{itemize}
+These methods are effective to use when there is collinearity in your input values and ordinary least squares would overfit the training data.
 	   }
+	   	
+	   	 \frame[allowframebreaks]{
+	   	 \frametitle{9.Regularization}
+	   	 \framesubtitle{Ridge Regression}
+	   	 Ridge should be used if we want to remain all parameters.
+	   	\begin{equation}
+	    E=1/n * \sum_{i=0}^{n}(y_{i}-\beta_{1}*x_{i}+\beta_{0})
+	    \end{equation}
+	    Adding Ridge penalty:
+	   	\begin{equation}
+	    minimize(E+\lambda \sum_{j=1}^{p}\beta_{j}^{2})
+	    \end{equation}	
+	   	\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/ridge.png}
+		\end{figure}
+		We see that Ridge remain all variables and with incrementing $\lambda$ all are forced to 0.
+		To find $\lambda$ we can also perform CV. Example:
+		\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/cvRidge.png}
+		\end{figure}
+		In this case Ridge is not providing imrovements. What about Lasso?
+	   	 }
+	   	 
+	   	 \frame[allowframebreaks]{
+	   	 \frametitle{9.Regularization}
+	    \framesubtitle{Lasso Regression}
+	    Lasso allow to get rid of some parameters. 
+	   	\begin{equation}
+	    E=1/n * \sum_{i=0}^{n}(y_{i}-\beta_{1}*x_{i}+\beta_{0})
+	    \end{equation}
+	    Adding Lasso penalty:
+	   	\begin{equation}
+	    minimize(E+\lambda \sum_{j=1}^{p}|\beta_{j}|)
+	    \end{equation}	
+	   	\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/lasso1.png}
+		\end{figure}
+	    How to find $\lambda$? We can perform cross-validation.
+	    Example: 
+	   	\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/lassoCV.png}
+		\end{figure}
+		There is improvement but some coefficients are equals to 0 which indicades that some parameters will not be taken into consideration.
+	     }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   	   	 
-	 \frame{
-	    \frametitle{6. Logistic regression}
-	   }
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+\begin{itemize}
+	\item 
+	Logistic regression was developed by statistician David Cox in 1958 
+	\item 
+	Logistic Regression is one of the basic and the most popular algorithm to solve a classification problem
+	\item 
+	The main idea of logistic regression is to find a relationship between features and probability of particular outcome
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+\begin{itemize}
+	\item 
+	In logistic regression, the dependent variable is binary or dichotomous, i.e. it only contains data coded as 1 (TRUE, success, etc.) or 0 (FALSE, failure, etc.)
+	\item
+	Linear regression predicts values outside the acceptable range (e.g. predicting probabilities
+	outside the range 0 to 1)
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+Function graph:
+\begin{itemize}
+	\item 
+	For the begining arguments values are nearly 0 or 1
+	\item
+	After reaching critical value we see dynamically increase/decrease of function  value
+	\item
+	For the final arguments values are nearly 1 or 0 (opposite to the begining)	
+\end{itemize}
+		\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/lukasz1.png}
+		\end{figure}
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+\begin{itemize}
+	\item
+	The biggest difference between linear and logistic regrresion is how the line is fit to the data
+	\item 
+	Logistic regression uses maximum likelihood estimation (MLE) to get the model coefficients
+	
+\end{itemize}
+		\begin{figure}[h]
+		\includegraphics[scale=0.3]{images/lukasz2.png}
+		\end{figure}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+Why should we use logistic regression instead of linear?
+\begin{itemize}
+\item
+Let \textbf{x} be some feature and \textbf{y} be the output which can be either 0 or 1. 
+\item
+The probability that the output is 1 can be represented as:
+\begin{equation}
+P = (y=1 | x)
+\end{equation}
+\item
+Using linear regression we will get:  
+\begin{equation}
+p(X) = \beta_{0} + \beta_{1}X
+\end{equation}
+\item
+Logistic regression is expressed by logit function, therefore:
+\end{itemize}
+\begin{equation}
+p(X) = {e^{\beta_{0} + \beta_{1}X}}/{1 + e^{\beta_{0} + \beta_{1}X}}
+\end{equation}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+Different types of logistic regression:
+\begin{itemize}
+	\item
+	1. Binary: The categorical response has only two 2 possible outcomes (e.g.: Spam or Not)
+	\item
+	2. Multinomial: Three or more categories without ordering. (e.g.: Predicting which food is preferred more (Veg, Non-Veg, Vegan))
+	\item
+	3. Ordinal: Three or more categories with ordering. (e.g.: Movie rating from 1 to 5)
+\end{itemize}
+\end{frame}
+\begin{frame}[allowframebreaks]
+\frametitle{10.Logistic regression}
+\framesubtitle{Summing up}
+\begin{itemize}
+	\item
+	Logistic regression's ability to provide probabilities and classify new samples using continuous and discrete measurements makes it a popular machine learning method.
+\end{itemize}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	 
 	\frame{
-	 	\frametitle{7.Polynominal Regression}
+	 	\frametitle{11.Polynominal Regression}
 		\begin{itemize}
 		\item Occurs when regression equation has independent variable in power higher than 1.
 		\item General equation
@@ -344,7 +495,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 	 \frame{
-	    \frametitle{7.Polynominal Regression}
+	    \frametitle{11.Polynominal Regression}
 	    \begin{itemize}
 	    \item polynominal with higher degree can give us lower error rate
 	    \item if degree will be too high then overfitting will occur
@@ -355,17 +506,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	   
 	 \frame{
-	    \frametitle{7.Polynominal Regression}	    
+	    \frametitle{11.Polynominal Regression}	    
 	    \includegraphics[scale=0.3]{images/sample_data.png}
 	    \includegraphics[scale=0.3]{images/linear_regression.png}
 	   }
 	 \frame{
-		\frametitle{7.Polynominal Regression}
+		\frametitle{11.Polynominal Regression}
 		\includegraphics[scale=0.3]{images/2_degree.png}
 	    \includegraphics[scale=0.3]{images/3_degree.png}
 	 }
 	 \frame{
-		\frametitle{7.Polynominal Regression}	 
+		\frametitle{11.Polynominal Regression}	 
 		\includegraphics[scale=0.3]{images/20_degree.png}	 
 	 }
 
