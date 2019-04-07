@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.17)  7 APR 2019 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.17)  7 APR 2019 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1913,7 +1913,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 502.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 501.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1926,18 +1926,18 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 File: images/sample_data.png Graphic file (type png)
 
 <use images/sample_data.png>
-Package pdftex.def Info: images/sample_data.png used on input line 509.
+Package pdftex.def Info: images/sample_data.png used on input line 508.
 (pdftex.def)             Requested size: 144.5411pt x 99.07088pt.
 
 <images/linear_regression.png, id=243, 502.87875pt x 333.245pt>
 File: images/linear_regression.png Graphic file (type png)
 
 <use images/linear_regression.png>
-Package pdftex.def Info: images/linear_regression.png used on input line 509.
+Package pdftex.def Info: images/linear_regression.png used on input line 508.
 (pdftex.def)             Requested size: 150.86478pt x 99.97426pt.
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 509.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 508.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1951,17 +1951,17 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 File: images/2_degree.png Graphic file (type png)
 
 <use images/2_degree.png>
-Package pdftex.def Info: images/2_degree.png used on input line 514.
+Package pdftex.def Info: images/2_degree.png used on input line 513.
 (pdftex.def)             Requested size: 146.649pt x 98.1675pt.
  <images/3_degree.png, id=251, 489.83pt x 335.2525pt>
 File: images/3_degree.png Graphic file (type png)
 
 <use images/3_degree.png>
-Package pdftex.def Info: images/3_degree.png used on input line 514.
+Package pdftex.def Info: images/3_degree.png used on input line 513.
 (pdftex.def)             Requested size: 146.95012pt x 100.57652pt.
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 514.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 513.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1975,11 +1975,11 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 File: images/20_degree.png Graphic file (type png)
 
 <use images/20_degree.png>
-Package pdftex.def Info: images/20_degree.png used on input line 521.
+Package pdftex.def Info: images/20_degree.png used on input line 520.
 (pdftex.def)             Requested size: 147.8535pt x 97.56525pt.
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 521.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 520.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -1991,7 +1991,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
  <./images/20_degree.png>]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 532.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 531.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -2003,7 +2003,7 @@ Overfull \hbox (7.33337pt too wide) has occurred while \output is active
 ]
 File: ./files/tlo.pdf Graphic file (type pdf)
  <use ./files/tlo.pdf>
-Package pdftex.def Info: ./files/tlo.pdf used on input line 541.
+Package pdftex.def Info: ./files/tlo.pdf used on input line 540.
 (pdftex.def)             Requested size: 364.17706pt x 273.15117pt.
 
 Overfull \hbox (7.33337pt too wide) has occurred while \output is active
@@ -2023,20 +2023,20 @@ No file seminar_slides.bbl.
 \tf@snm=\write9
 \openout9 = `seminar_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
 (./seminar_slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
 Package rerunfilecheck Info: File `seminar_slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 548.
  ) 
 Here is how much of TeX's memory you used:
- 34194 strings out of 493029
- 829603 string characters out of 6136234
+ 34192 strings out of 493029
+ 829587 string characters out of 6136234
  1077145 words of memory out of 5000000
- 36833 multiletter control sequences out of 15000+600000
+ 36831 multiletter control sequences out of 15000+600000
  23640 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,79p,747b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2053,7 +2053,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/pl/plss8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/pl/plssbi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/pl/plssbx10.pfb>
-Output written on seminar_slides.pdf (35 pages, 599976 bytes).
+Output written on seminar_slides.pdf (35 pages, 599751 bytes).
 PDF statistics:
  333 PDF objects out of 1000 (max. 8388607)
  225 compressed objects within 3 object streams
