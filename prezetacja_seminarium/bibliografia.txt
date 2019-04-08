@@ -2,3 +2,6 @@
 2. https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/?fbclid=IwAR1eURE0UAmGULrZ11Y59AAgTiH0MMxouIemX1rsGCF1bxGHu_PbGpQnUOY
 3.regresja logistyczna: https://www.saedsayad.com/logistic_regression.htm, https://www.youtube.com/watch?v=yIYKR4sgzI8, https://towardsdatascience.com/understanding-logistic-regression-9b02c2aec102
 4.Maximum likelihood estimation: https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1
+5. https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
+6. https://machinelearningmastery.com/linear-regression-for-machine-learning/
+7. https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a
